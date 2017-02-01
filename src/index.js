@@ -9,6 +9,7 @@ const sha512 = require('crypto-js/sha512');
 const sha384 = require('crypto-js/sha384');
 const sha3 = require('crypto-js/sha3');
 const ripemd160 = require('crypto-js/ripemd160');
+const icon = require('./icon.png');
 
 const hashAlgos = {
   md5,
@@ -23,9 +24,9 @@ const hashAlgos = {
 
 function generateDisplayObject(copyToClipboard, algoName, hashedValue) {
   return {
+    icon,
     title: algoName,
     subtitle: hashedValue,
-    icon: path.resolve(__dirname, 'Users', 'majacobs', 'Projects', 'ap', 'cerebro', 'cerebro-plugin-hash', 'icon.png'),
     clipboard: hashedValue,
     onSelect: (event) => copyToClipboard(hashedValue),
     // onKeyDown: (event) => console.log(event),

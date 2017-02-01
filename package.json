@@ -1,9 +1,9 @@
 {
   "name": "cerebro-hash",
   "version": "1.0.0",
-  "description": "",
+  "description": "erebro plugin to hash input",
   "license": "MIT",
-  "repository": "mattjdev/cerebro-hash",
+  "repository": "codingmatty/cerebro-plugin-hash",
   "author": {
     "name": "Matthew Jacobs",
     "email": "hello@mattjdev.com",
@@ -19,6 +19,7 @@
   },
   "main": "dist/index.js",
   "keywords": [
+    "hash",
     "cerebro",
     "cerebro-plugin"
   ],

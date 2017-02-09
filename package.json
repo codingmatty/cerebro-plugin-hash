@@ -20,6 +20,8 @@
   "main": "dist/index.js",
   "keywords": [
     "hash",
+    "md5",
+    "sha",
     "cerebro",
     "cerebro-plugin"
   ],

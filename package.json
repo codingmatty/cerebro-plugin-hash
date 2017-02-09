@@ -1,6 +1,6 @@
 {
   "name": "cerebro-hash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "erebro plugin to hash input",
   "license": "MIT",
   "repository": "codingmatty/cerebro-plugin-hash",

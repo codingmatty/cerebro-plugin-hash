@@ -46,7 +46,6 @@ function generateDisplayObject(copyToClipboard, algoName, hashedValue) {
 
 const plugin = ({term, display, actions}) => {
   const match = new RegExp(`^(?:hash\\s)?(hash|${Object.keys(hashAlgos).join('|')})\\s(.*)$`).exec(term);
-  console.log(match);
   if (match) {
     const algoName = match[1];
     const valueToHash = match[2];
